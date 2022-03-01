@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  width: 100vw;
+
+  height: 100vh;
+
+  background: rgba(44, 37, 57, 0.07);
+
+  .left_container {
+    position: absolute;
+    width: 80%;
+    height: 190%;
+    left: 60%;
+    top: -42%;
+
+    z-index: -1;
+
+    background: linear-gradient(147.34deg, #484197 0%, #813326 43.79%);
+    border-radius: 10%;
+    transform: rotate(-55.11deg);
+  }
+
+  .heading_container {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-left: 40px;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        width: 80px;
+        height: 90px;
+        margin-right: 20px;
+      }
+    }
+
+    .right {
+      width: 40%;
+    }
+
+    .nav__links {
+      display: flex;
+      justify-content: space-between;
+
+      margin-right: 5%;
+
+      .nav__item {
+        height: 40%;
+        text-transform: capitalize;
+        font-style: normal;
+        margin-left: 20px;
+        list-style: none;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        padding: 5px 20px;
+        color: #ffffff;
+        a {
+          text-decoration: none;
+
+          color: white;
+
+          &:hover {
+            padding: 5px 7px;
+            border: 1.5px solid #dedede;
+            box-sizing: border-box;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+  .title {
+    position: absolute;
+    left: 80px;
+    top: 239px;
+    font-family: "Righteous", cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 99px;
+
+    color: #0544a8;
+  }
+
+  .home_text {
+    position: absolute;
+    left: 80px;
+    top: 454px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .address {
+    position: absolute;
+    background: linear-gradient(147.34deg, #484197 0%, #813326 43.79%);
+    padding: 50px 60px;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    left: 80px;
+    top: 693px;
+  }
+
+  .right__screen {
+    height: 50%;
+    width: 50%;
+    margin-left: 53%;
+
+    .notification_icon {
+      position: absolute;
+      width: 70px;
+      height: 70px;
+      left: 1000px;
+      top: 50px;
+    }
+
+    .member_icon {
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      padding: 20px;
+      border-radius: 50%;
+      left: 1760px;
+      top: 850px;
+
+      background-color: #0544a8;
+    }
+  }
+}

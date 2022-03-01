@@ -1,0 +1,170 @@
+.application--modal .modal--layout {
+  padding: 0.3%;
+  width: 100%;
+}
+
+.application--modal .modal--layout .modal--header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8%;
+  padding-left: 10px;
+}
+
+.application--modal .modal--layout .modal--header .heading {
+  width: 200%;
+  text-align: center;
+  background-color: #507050;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+
+.application--modal .modal--layout .modal--header .disable--text--trigger {
+  cursor: pointer;
+  height: 5rem;
+  font-weight: 900;
+  color: #dd4c4c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1%;
+  padding-right: 0;
+}
+
+.application--modal .modal--body .modal--description {
+  text-align: center;
+  margin-bottom: 8%;
+  line-height: 3;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .first--row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  padding-bottom: 2%;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .first--row form input {
+  padding: 4%;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .second--row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  padding-bottom: 2%;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .second--row form input {
+  padding: 4%;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .second--row form .education--section {
+  padding: 4.3%;
+  padding: 3.5%;
+  width: 110%;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .second--row form .gender--selection {
+  padding: 6%;
+  min-width: 172%;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .third--row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  padding-bottom: 2%;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .third--row select {
+  padding: 2.3%;
+  width: 95%;
+  margin-left: 5px;
+}
+
+.application--modal .modal--body .registration--section .personal--information--section .third--row input {
+  padding: 3.5%;
+  width: 170%;
+}
+
+.application--modal .contact--information--section {
+  margin-top: 5%;
+}
+
+.application--modal .contact--information--section .form--section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  padding-bottom: 2%;
+}
+
+.application--modal .contact--information--section .form--section input {
+  padding: 3.5%;
+  width: 160%;
+}
+
+.application--modal .contact--information--section .form--section textarea {
+  margin-top: 7%;
+  width: 190%;
+}
+
+.application--modal .footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1%;
+  ime-mode: 100%;
+}
+
+.application--modal .footer .btn {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.application--modal .footer .btn button {
+  background-color: #dd4c4c;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=ModalPage.css.map */

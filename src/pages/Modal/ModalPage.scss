@@ -1,0 +1,144 @@
+.application--modal{
+    
+    .modal--layout{
+        padding: 0.3%;
+        width: 100%;
+
+        .modal--header{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 8%;
+            padding-left: 10px;
+
+            .heading{
+                width: 200%;
+                text-align: center;
+                background-color: rgb(80, 112, 80);
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 5rem;
+            }
+            .disable--text--trigger{
+                cursor: pointer;
+                height: 5rem;
+                font-weight: 900;
+                color: #dd4c4c;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 1%;
+                padding-right: 0;
+            }
+        }
+    }
+    .modal--body{
+        .modal--description{
+            text-align: center;
+            margin-bottom: 8%;
+            line-height: 3;
+        }
+        .registration--section{
+            .personal--information--section{
+                .first--row{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 0;
+                    padding-bottom: 2%;
+
+                    form{
+                        input{
+                            padding: 4%;
+                        }
+                    }
+                }
+
+                .second--row{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 0;
+                    padding-bottom: 2%;
+
+                    form{
+                        input{
+                            padding: 4%;
+                        }
+
+                        .education--section{
+                            padding: 4.3%;
+                            padding: 3.5%;
+                            width: 110%;
+                        }
+                        .gender--selection{
+                            padding: 6%;
+                            min-width: 172%;
+                        }
+                    }
+                }
+
+                .third--row{
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 0;
+                    padding-bottom: 2%;
+
+                    select{
+                        padding: 2.3%;
+                        width: 95%;
+                        margin-left: 5px;
+                    }
+                    input{
+                        padding: 3.5%;
+                        width: 170%;
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .contact--information--section{
+        margin-top: 5%;
+
+        .form--section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0;
+            padding-bottom: 2%;
+
+            input{
+                padding: 3.5%;
+                width: 160%;
+            }
+            textarea{
+                margin-top: 7%;
+                width: 190%;
+            }
+        }
+    }
+    .footer{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1%;
+        ime-mode: 100%;
+
+        .btn{
+            justify-content: space-between;
+            button{
+                background-color: #dd4c4c;
+                color: white;
+                outline: none;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+            }
+           
+        }
+    }
+}
